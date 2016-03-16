@@ -1,0 +1,9 @@
+[Unit]
+Description=Node.js The Airbourne Ultimatum service
+
+[Service]
+Type=simple
+ExecStart=/home/misha/server-config/start-scripts/start-tabu.sh
+
+[Install]
+WantedBy=multi-user.target
